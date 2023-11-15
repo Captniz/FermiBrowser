@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
 
 
@@ -19,7 +20,7 @@ class FermiBrowser(QMainWindow):
         self.layout.addLayout(self.horizontal)
         self.layout.addWidget(self.browser)
 
-        self.browser.setUrl(QUrl("https://www.google.com"))
+        self.browser.setUrl(QUrl("https://www.fermimn.edu.it/"))
 
         self.window.setLayout(self.layout)
         self.window.show()
