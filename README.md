@@ -1,3 +1,3 @@
 # FermiBrowser
 
-<img src="Cladui_Bisio.jpg">
+<img src="Claudio_Bisio.jpg">
